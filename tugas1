@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Hitung Geometri</title>
+</head>
+<body>
+    <h1>Perhitungan Geometri</h1>
+
+    <script>
+        // Fungsi untuk menghitung luas persegi
+        // Parameter: sisi (angka)
+        function hitungLuasPersegi(sisi) {
+            return sisi * sisi;
+        }
+
+        // Fungsi untuk menghitung luas persegi panjang
+        // Parameter: panjang (angka), lebar (angka)
+        function hitungLuasPersegiPanjang(panjang, lebar) {
+            return panjang * lebar;
+        }
+
+        // Fungsi untuk menghitung volume balok
+        // Parameter: panjang (angka), lebar (angka), tinggi (angka)
+        function hitungVolumeBalok(panjang, lebar, tinggi) {
+            return panjang * lebar * tinggi;
+        }
+
+        // Nilai parameter (bisa diubah sesuai kebutuhan)
+        let sisi = 5;
+        let panjang = 10;
+        let lebar = 4;
+        let tinggi = 6;
+
+        // Menampilkan hasil perhitungan di konsol
+        console.log("Luas Persegi dengan sisi " + sisi + " adalah: " + hitungLuasPersegi(sisi));
+        console.log("Luas Persegi Panjang dengan panjang " + panjang + " dan lebar " + lebar + " adalah: " + hitungLuasPersegiPanjang(panjang, lebar));
+        console.log("Volume Balok dengan panjang " + panjang + ", lebar " + lebar + ", dan tinggi " + tinggi + " adalah: " + hitungVolumeBalok(panjang, lebar, tinggi));
+    </script>
+</body>
+</html>
